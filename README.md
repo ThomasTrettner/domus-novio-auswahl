@@ -15,16 +15,14 @@ GitHub Pages ist fuer den Branch `main` aus dem Root-Verzeichnis vorgesehen. Die
 
 ## Logo
 
-Die Logo-Dateien liegen im Root-Verzeichnis neben `index.html`:
+Die Logo-Datei liegt im Root-Verzeichnis neben `index.html`:
 
 - `logo-domus-novio.png`
-- `logo-domus-innovation-days-2026.png`
 
-Die Logos werden in der Seite mit relativen Pfaden eingebunden:
+Das Logo wird in der Seite mit einem relativen Pfad eingebunden:
 
 ```html
 <img src="./logo-domus-novio.png" alt="DOMUS novio Logo">
-<img src="./logo-domus-innovation-days-2026.png" alt="DOMUS Innovation Days 2026 Logo">
 ```
 
 ## Spaetere Aenderungen veroeffentlichen
