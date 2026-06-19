@@ -215,13 +215,24 @@
 
       .choice-secondary {
         color: var(--white);
-        background: rgba(32, 39, 47, 0.72);
-        box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.12);
+        background:
+          linear-gradient(135deg, rgba(247, 144, 23, 0.1), transparent 36%),
+          rgba(32, 39, 47, 0.88);
+        box-shadow:
+          0 10px 22px rgba(0, 0, 0, 0.18),
+          inset 0 0 0 1px rgba(247, 144, 23, 0.34),
+          inset 0 0 0 2px rgba(255, 255, 255, 0.07);
       }
 
       .choice-secondary:hover,
       .choice-secondary:focus-visible {
-        background: #171e25;
+        background:
+          linear-gradient(135deg, rgba(247, 144, 23, 0.16), transparent 38%),
+          #171e25;
+        box-shadow:
+          0 14px 28px rgba(0, 0, 0, 0.22),
+          inset 0 0 0 1px rgba(247, 144, 23, 0.48),
+          inset 0 0 0 2px rgba(255, 255, 255, 0.08);
       }
 
       .choice-title {
@@ -257,6 +268,11 @@
 
       .choice-primary .arrow-box {
         background: rgba(32, 39, 47, 0.12);
+      }
+
+      .choice-secondary .arrow-box {
+        background: rgba(247, 144, 23, 0.18);
+        color: var(--white);
       }
 
       .arrow {
