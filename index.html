@@ -85,9 +85,10 @@
         position: absolute;
         inset: 0;
         pointer-events: none;
-        background:
-          linear-gradient(90deg, var(--orange) 0, var(--orange) 4px, transparent 4px, transparent calc(100% - 4px), var(--orange) calc(100% - 4px), var(--orange) 100%),
-          linear-gradient(180deg, rgba(255, 255, 255, 0.13), transparent 24%);
+        background: linear-gradient(180deg, rgba(255, 255, 255, 0.13), transparent 24%);
+        box-shadow:
+          inset 4px 0 0 var(--orange),
+          inset -4px 0 0 var(--orange);
       }
 
       .brand-side {
